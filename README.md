@@ -2,6 +2,15 @@
 
 A time-series forecasting application using a Simple RNN to predict monthly airline passenger traffic.
 
+## 📁 Project Structure
+
+```text
+├── app.py                   # The main Streamlit application for inference
+├── requirements.txt         # List of Python dependencies
+└── production_model/        # Folder containing serialized artifacts
+    ├── rnn_weights.pth      # Trained PyTorch RNN model weights
+    └── data_scaler.pkl      # MinMaxScaler instance for data normalization
+
 ## 🚀 Features
 - **Recurrent Neural Network:** Built with PyTorch to capture sequential patterns.
 - **MLOps Pipeline:** Includes data normalization, sliding window transformation, and experiment tracking.
