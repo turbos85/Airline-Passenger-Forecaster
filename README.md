@@ -24,3 +24,5 @@ A time-series forecasting application using a Simple RNN to predict monthly airl
 
 ## 📊 Dataset
 Uses the [Air Passengers dataset from Kaggle](https://www.kaggle.com/datasets/rakannimer/air-passengers).
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://turbos85-airline-passenger-forecaster-app-jhx3oe.streamlit.app/)
